@@ -1,0 +1,124 @@
+/* // 阿里字体图标设置 */
+.icon,
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 部分全局设置 */
+.red {
+  color: #ed6160;
+}
+.lightred {
+  color: #ee4124;
+}
+.green {
+  color: #92f669;
+}
+.lightgreen {
+  color: #00ff00;
+}
+.blue {
+  color: #00bbff;
+}
+.lightblue {
+  color: #28e8ef;
+}
+.yellow {
+  color: #ede34f;
+}
+.lightyellow {
+  color: #ffd200;
+}
+.white{
+  color: #FFF;
+}
+.greyblue{
+  color: #A2CCFF;
+}
+.brown{
+  color: #8E0E0B;
+}
+.title{
+  color:#68d2f9;
+}
+.red-b {
+  background-color: #ed6160;
+}
+.lightred-b {
+  background-color: #ee4124;
+}
+.green-b {
+  background-color: #92f669;
+}
+.lightgreen-b {
+  background-color: #00ff00;
+}
+.blue-b {
+  background-color: #00bbff;
+}
+.lightblue-b {
+  background-color: #28e8ef;
+}
+.yellow-b {
+  background-color: #ede34f;
+}
+.lightyellow-b {
+  background-color: #ffd200;
+}
+.white-b{
+  background-color: #FFF;
+}
+.greyblue-b{
+  background-color: #A2CCFF;
+}
+.brown-b{
+  background-color: #8E0E0B;
+}
+.title-b{
+  background-color:#68d2f9;
+}
+.border_win {
+  margin: 0.3125rem;
+  position: relative;
+  display: inline-block;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.border_corner {
+  z-index: 2500;
+  position: absolute;
+  width: 0.9375rem;
+  height: 0.625rem;
+  background: rgba(0, 0, 0, 0);
+  border: 0.1875rem solid #00d8e5;
+}
+.border_corner_left_top {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+.border_corner_right_top {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+.border_corner_left_bottom {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+.border_corner_right_bottom {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
